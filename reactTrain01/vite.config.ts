@@ -1,4 +1,5 @@
-import { dirname, resolve } from 'node:path'
+//import { dirname, resolve } from 'node:path'
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
