@@ -10,11 +10,12 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  base: '/reactTrain01',
   build: {
     rolldownOptions: {
       input: {
         main: resolve(import.meta.dirname, 'index.html'),
-        hello01: resolve(import.meta.dirname, 'hello01.html'),  
+        hello01: resolve(import.meta.dirname, 'hello01.html'),
       },
     },
   }
